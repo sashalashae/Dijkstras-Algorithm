@@ -4,7 +4,7 @@
 //Class of 2019
 //This program will implent dijkstra's shortest path algorithm using
 //Dynamic Arraylists and Min Priority Queues
-//I tried my best this assignment was very difficult, I really do not want to take this class again
+//I tried my best this assignment was very difficult
 //I was able to get the minpriority queue to work though
 //Have a great winter break!
 
@@ -118,7 +118,8 @@ void dijkstra(DynamicArrayList<DynamicArrayList<pair<int, int>>> graph, int * we
 
 				weights[graph.getEntry(currentVertexIndex.first).getEntry(i).first] =
 					weights[currentVertexIndex.first] +
-					graph.getEntry(currentVertexIndex.first).getEntry(i).second; //updates the weight vector  to be w[ u ] = w[ v ] + m[ v ] [ u ]
+					graph.getEntry(currentVertexIndex.first).getEntry(i).second; //updates the weight vector  to be w[ u ] = w[ v ] + m[ v ] [ u ]
+
 			}
 		}
 	}
